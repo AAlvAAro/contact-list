@@ -22,6 +22,15 @@ namespace ContactList.Controllers
         }
 
         //
+        // GET: /Contacts.json
+
+        public ActionResult All()
+        {
+            var data = db.Movies;
+            return Json(data, JsonRequestBehavior.AllowGet);
+        }
+
+        //
         // GET: /Contacts/Details/5
 
         public ActionResult Details(int id = 0)
