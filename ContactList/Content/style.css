@@ -9,9 +9,9 @@
 }
 
 .contact-list {
-    font-size: 16px;
-    margin-right: 3em;
-    margin-bottom: 1em;
+    font-size: large;
 }
 
-
+.pull-right {
+    float: right;
+}
