@@ -21,6 +21,7 @@
             <td>@Html.DisplayFor(model => contact.PhoneNumber)</td>
             <td>@Html.DisplayFor(model => contact.Email)</td>
             <td>@Html.DisplayFor(model => contact.Age)</td>
+            <td>@Html.ActionLink("Watch Details", "Details", "Contacts", new { id = contact.ID }, new { @class = "btn btn-primary btn-xs contact-list"})</td>
         </tr>
     }
 </table>
