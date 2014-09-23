@@ -1,9 +1,17 @@
-﻿#main- content {
-    top:10em;
-
-}
-
-footer {
+﻿footer {
     position: absolute;
     bottom: 0;
+    text-align: center;    
 }
+
+#main-content {
+    margin-top:5em;
+}
+
+.contact-list {
+    font-size: 16px;
+    margin-right: 3em;
+    margin-bottom: 1em;
+}
+
+
